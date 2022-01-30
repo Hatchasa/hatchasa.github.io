@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(252,161,201);
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color:white;
+    width:450px;
+    margin: 0 auto;
+}
+
+h1 {
+    color:white;
+}
+
+.hover:hover{
+    color: black;
+}
+
+.list {
+    display: table;
+    text-align: left;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+#nelson {
+    width:15%;
+    height:25%;
+}
+
+.bottom {
+    color:white;
+    text-align: center;
+    width:300px;
+    margin: 0 auto;
+}
+
+.bottom p {
+    color:black;
+    margin: 0 auto;
+    text-align: center;
+}
