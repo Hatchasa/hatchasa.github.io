@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(117, 117, 117);
+}
+
+.images {
+    text-align: center;
+}
+
+.column {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(117, 117, 117);
+    max-width: 75%;
+    margin: 2% auto;
+}
+
+.cimg {
+    border-radius: 50%;
+    border: 10px solid rgb(65, 65, 65);
+    margin: 0 30%;
+    width: 50%;
+    height: 90%;
+}
