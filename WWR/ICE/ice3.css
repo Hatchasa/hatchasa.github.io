@@ -1,0 +1,64 @@
+#content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#main-img {
+    width: 100%;
+    grid-column: 2/3;  
+    text-align: center;
+}
+
+#main {
+    grid-column: 2/3;
+}
+
+body {
+    border-width: 1px;
+    border-radius: 50%;
+    border-color: black;
+}
+
+footer {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #3f5b8b;
+}
+
+#first {
+    grid-column: 1/2;
+}
+
+#second {
+    grid-column: 2/3;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-top: none;
+    border-bottom: none;
+}
+
+#third {
+    grid-column: 3/3;
+}
+
+
+p {
+    text-align: center;
+    color: #3f5b8b;
+}
+
+#next {
+    text-align: center;
+    color: gray;
+}
+
+h2 {
+    text-align: center;
+}
+
+.num, .word {
+    color: white;
+}
