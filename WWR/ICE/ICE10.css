@@ -1,0 +1,20 @@
+#main {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#one, #two, #three, #four {
+    grid-column: 2/3;
+    border: black;
+    border-width: 3px;
+}
+
+#main {
+    text-align: center;
+}
+
+button {
+    background-color: blue;
+    font-size: 16px;
+    padding: 10px 30px;
+}
