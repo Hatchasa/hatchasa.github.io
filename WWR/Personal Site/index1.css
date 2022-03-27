@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Staatliches&display=swap');
+
+.topnav {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: white;
+}
+
+.topnav img {
+    max-width: 70px;
+    padding-left: 50px;
+}
+
+.topnav a:link, a:visited, a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.topnav a:hover {
+    text-decoration: underline;
+}
+
+.topnav .a1 {
+    grid-column: 2/3;
+    justify-self: center;
+    margin-top: 25px;
+    font-family: 'Staatliches', 'Arial';
+}
+
+.topnav .a2 {
+    grid-column: 3/4;
+    justify-self: center;
+    margin-top: 25px;
+    font-family: 'Staatliches', 'Arial';
+}
+
+.topnav input {
+    grid-column: 8/11;
+    height: 30px;
+    margin-top: 15px;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+}
+
+#hero img {
+    max-width: 1600px;
+    margin-left: -10px;
+    z-index: -1;
+    grid-column: 1/13;
+}
+
+#hero h1 {
+    grid-column: 5/9;
+    position: absolute;
+    top: 70px;
+    font-family: 'Staatliches','Francois One', 'Sans-serif';
+    font-size: 50px;
+    justify-self: center;
+}
+
+#featured {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+#featured h3 {
+    grid-column: 6/8;
+    justify-self: center;
+    
+}
