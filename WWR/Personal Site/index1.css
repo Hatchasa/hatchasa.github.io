@@ -157,7 +157,7 @@ footer {
     background-color:black;
 }
 
-footer a:link, a:visited, a:active {
+footer a:link, footer a:visited, footer a:active {
     padding: 5px;
     justify-self: end;
     color:white;
