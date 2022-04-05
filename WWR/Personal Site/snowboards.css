@@ -41,6 +41,9 @@
     margin-top: 15px;
 }
 
+
+
+
 #hero {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -49,16 +52,136 @@
 
 #hero img {
     max-width: 1600px;
+    max-height: 1000px;
     margin-left: -10px;
     z-index: -1;
     grid-column: 1/13;
 }
 
-#hero h1 {
+
+
+
+#home-grid h1 {
     grid-column: 5/9;
-    position: absolute;
     top: 70px;
     font-family: 'Staatliches','Francois One', 'Sans-serif';
     font-size: 50px;
-    justify-self: center;
+    grid-column: 2/3;
+    margin-top: 50px;
+}
+
+#home-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.filter-bar {
+    grid-column: 1/2;
+    overflow: hidden;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 300px;
+    margin-left: 50px;
+    font-family: 'Staatliches','Francois One', 'Sans-serif';
+}
+
+#home-grid p {
+    font-family: 'Francois One', 'Sans-serif';
+}
+
+#pburton {
+    padding-right: 10px;
+}
+
+#pnitro {
+    padding-top: 16px;
+}
+
+#parbor {
+    padding-top: 11px;
+}
+
+#pgilson {
+    padding-top: 11px;
+}
+
+#home-grid h3 {
+    font-family: 'Francois One', 'Sans-serif';
+    font-size: 30px;
+}
+
+#home-grid img{
+    max-width: 400px;
+}
+
+#burton {
+    width: 290px;
+    margin-left: -20px;
+}
+
+#nitro {
+    width: 220px;
+    margin-top: 15px;
+}
+
+#arbor {
+    width: 260px;
+    margin-top: 15px;
+    margin-left: -20px;
+}
+
+#gilson, #k2, #salamon {
+    margin-top: 100px;
+}
+
+.gilson {
+    grid-column: 2/3;
+}
+
+#gilson {
+    width: 350px; 
+    margin-left: -50px;
+}
+
+#salamon {
+    width: 360px;
+    margin-left: -70px;
+}
+
+#k2 {
+    width: 360px;
+    margin-left: -60px;
+}
+
+
+
+
+footer {
+    margin-top: 150px;
+    height: 100px;
+    border-top: solid;
+    border-width: 1px;
+    text-align: right;
+    background-color:black;
+}
+
+footer a:link, footer a:visited, footer a:active {
+    padding: 5px;
+    justify-self: end;
+    color:white;
+}
+
+.links {
+    position: relative;
+    margin: 20px 20px;
+    font-family: 'Staatliches','Francois One', 'Sans-serif';
+    font-size: 20px;
+}
+
+footer p {
+    margin: 20px ;
+    font-family: 'Staatliches','Francois One', 'Sans-serif';
+    font-size: 20px;
+    color:white;
 }

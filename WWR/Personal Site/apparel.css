@@ -62,3 +62,175 @@
     font-size: 50px;
     justify-self: center;
 }
+
+
+
+
+#home-grid h1 {
+    grid-column: 5/9;
+    top: 70px;
+    font-family: 'Staatliches','Francois One', 'Sans-serif';
+    font-size: 50px;
+    grid-column: 2/3;
+    margin-top: 50px;
+}
+
+#home-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.filter-bar {
+    grid-column: 1/2;
+    overflow: hidden;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 300px;
+    margin-left: 50px;
+    font-family: 'Staatliches','Francois One', 'Sans-serif';
+}
+
+
+
+
+#home-grid p {
+    font-family: 'Francois One', 'Sans-serif';
+}
+
+#smith {
+    padding-right: 10px;
+}
+
+#pgiro {
+    padding-top: 16px;
+}
+
+#poakley {
+    padding-top: -50px;
+}
+
+#pglade{
+    margin-top: -40px;
+}
+
+#psiroko {
+    padding-top: 5px;
+}
+
+#proca {
+    margin-top: 1px;
+}
+
+#pburtons {
+    padding-top: 15px;
+}
+
+#pdc {
+    padding-top: 22px;
+}
+
+#pburtons1 {
+    margin-top: -1px;
+}
+
+#home-grid h3 {
+    font-family: 'Francois One', 'Sans-serif';
+    font-size: 30px;
+}
+
+#home-grid img{
+    max-width: 400px;
+}
+
+#smith {
+    width: 290px;
+    margin-left: -20px;
+}
+
+#giro {
+    width: 255px;
+    margin-top: 20px;
+}
+
+#oakley {
+    width: 310px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+#glade, #roca, #siroko {
+    margin-top: 100px;
+}
+
+.glade {
+    grid-column: 2/3;
+}
+
+#glade {
+    width: 350px; 
+    margin-left: -50px;
+    margin-top: 50px;
+}
+
+#siroko {
+    width: 250px;
+}
+
+#roca {
+    width: 220px;
+    margin-top: 70px;
+}
+
+.burtons {
+    grid-column: 2/3;
+}
+
+#burtons, #dc, #burtons1 {
+    margin-top: 100px;
+}
+
+#burtons {
+    width: 200px; 
+}
+
+#dc {
+    width: 230px;
+}
+
+#burtons1 {
+    width: 300px;
+    margin-top: 70px;
+    margin-left: -40px;
+}
+
+
+
+footer {
+    margin-top: 150px;
+    height: 100px;
+    border-top: solid;
+    border-width: 1px;
+    text-align: right;
+    background-color:black;
+}
+
+footer a:link, footer a:visited, footer a:active {
+    padding: 5px;
+    justify-self: end;
+    color:white;
+}
+
+.links {
+    position: relative;
+    margin: 20px 20px;
+    font-family: 'Staatliches','Francois One', 'Sans-serif';
+    font-size: 20px;
+}
+
+footer p {
+    margin: 20px;
+    font-family: 'Staatliches','Francois One', 'Sans-serif';
+    font-size: 20px;
+    color:white;
+}
